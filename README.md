@@ -7,8 +7,7 @@ All the requirements are now in requirements.txt.
 - `virtualenv --no-site-packages -p python3.6 venv`
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
--[optional] `deactivate`
--[optional] `source venv/bin/activate`
+- [optional] `deactivate` and `source venv/bin/activate`
 - `FLASK_APP=run.py flask run`
 
 You might have to deactivate and reactivate virtualenv. The server should run on localhost:5000 now.
